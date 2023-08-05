@@ -1,6 +1,6 @@
-# CPP Barebone
+# EVM Query
 
-barebone env for cpp projects
+query infrastructure for EVM chains
 
 ## Build
 

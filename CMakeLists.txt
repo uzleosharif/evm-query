@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
 
-project(dsa CXX)
+project(eth-query CXX)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
@@ -19,7 +19,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED 20)
 
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")
   set(CMAKE_CXX_FLAGS
-    "${CMAKE_CXX_FLAGS} -Werror -stdlib=libc++ \
+      "${CMAKE_CXX_FLAGS} -Werror -stdlib=libc++ \
     -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic \
     -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wmisleading-indentation \
     -fsanitize=address")
